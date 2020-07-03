@@ -109,6 +109,12 @@ header {
 .heading h2 {
   font-weight: normal;
 }
+.recommend-list {
+  display: flex;
+}
+.recommend-list li {
+  flex: auto;
+}
 .recommend {
   float: left;
   width: 25%;
