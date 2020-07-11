@@ -1,3 +1,7 @@
+/*
+  Base CSS
+          */
+
 * {
   box-sizing: border-box;
 }
@@ -9,6 +13,17 @@ body {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+li {
+  height: 100px;
 }
 
 .container {
@@ -27,13 +42,15 @@ a {
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
+  text-shadow:1px 0 5px black;
+  color: white;
+  opacity: 0.9;
   font-size: 45px;
   letter-spacing: 5px;
 }
 
 .top-wrapper p {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .btn-wrapper {
@@ -46,12 +63,12 @@ a {
 }
 
 .eatin {
-  background-color: #81e77b;
+  background-color: #31bfd1 ;
   margin-right: 10px;
 }
 
 .takeout {
-  background-color: #db8aee;
+  background-color: #f2b87b;
 }
 
 .btn {
@@ -82,7 +99,7 @@ header {
 
 .logo {
   width: 124px;
-  margin-top: 20px;
+  height: 65px;
 }
 
 .header-left {
@@ -107,6 +124,14 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+.menu-icon {
+  display:none;
+  color: white;
+  float: right;
+  font-size: 35px;
+  padding: 25px 0;
+}
+
 .recommend-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -115,28 +140,38 @@ header {
   text-align: center;
 }
 
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
 .heading h2 {
+  padding-top: 5%;
   font-weight: normal;
 }
 
+.flex-list {
+  display: flex;
+}
+
+.flex-list li {
+  flex: auto;
+}
+
 .recommend {
-  float: left;
-  width: 25%;
+  backbround-color: #d2d2d2;
+  padding: 5px;
 }
 
 .recommend-icon {
   position: relative;
 }
 
+.recommend img {
+  width: 250px;
+  height: 250px;
+  border-radius: 7px;
+  object-fit: contain;
+}
+
 .recommend-icon p {
   position: absolute;
-  top: 44%;
+  bottom: 3%;
   width: 100%;
   color: white;
 }
@@ -149,27 +184,22 @@ header {
   color: #b3aeb5;
 }
 
-.heading h3 {
-  font-weight: normal;
-}
-
 .message-wrapper {
   border-bottom: 1px solid #eee;
+  padding-top: 100px;
   padding-bottom: 80px;
   text-align: center;
 }
 
 .message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #5f5d60;
 }
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
+.message img {
+  width: 250px;
+  height: 250px;
+  border-radius: 300px;
 }
 
 footer img {
@@ -186,13 +216,3 @@ footer {
   padding-bottom: 20px;
 }
 
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-.clear {
-  clear: left;
-}

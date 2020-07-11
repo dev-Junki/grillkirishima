@@ -1,11 +1,12 @@
-/* タブレット向けレイアウト */
+/* タ  ブレット向けレイアウト */
 @media all and (max-width: 1000px) {
 /* tablet用CSS -------------- */
-  .lesson {
+  .recommend {
     width: 50%;
     margin-bottom: 50px;
   }
   .top-wrapper h1 {
+    text-shadow:1px 0 5px black;
     font-size: 32px;
   }
   .heading h2 {
@@ -14,11 +15,19 @@
   footer {
     text-align: center;
   }
+  .flex-list {
+    flex-wrap: wrap;
+  }
+  .flex-list li {
+    width: 50%;
+    height: 100%;
+  }
+  
 }
 
 /* モバイル向けレイアウト */
 @media all and (max-width: 670px) {
-  .lesson {
+  .recommend {
     width: 100%;
     margin-bottom: 50px;
   }
@@ -32,7 +41,9 @@
     text-align: left;
   }
   .top-wrapper h1 {
+    text-shadow:1px 0 5px black;
     font-size: 24px;
+    color: #e7e7e7;
   }
   .top-wrapper p {
     font-size: 14px;
@@ -40,10 +51,17 @@
   .top-wrapper .btn {
     width: 100%;
   }
-  .facebook {
+  .eatin {
     margin-bottom: 10px;
   }
   .message-wrapper .btn {
     width: 100%;
   }
+  .flex-list {
+   flex-direction: column;
+  } 
+  .flex-list li {
+   height: 100%;
+   margin: 0 auto;
+  }  
 }
