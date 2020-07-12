@@ -1,76 +1,31 @@
 /*
-  Base CSS
+  Base
           */
-
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
 }
-
 a {
   text-decoration: none;
 }
-
 ul {
   list-style: none;
   margin: 0px;
   padding: 60px 0px;
   text-align: center;
 }
-
 li {
   height: 100px;
 }
-
 .container {
   max-width: 1170px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url("../public/IMG_0011.JPG");
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  text-shadow:1px 0 5px black;
-  color: white;
-  opacity: 0.9;
-  font-size: 45px;
-  letter-spacing: 5px;
-}
-
-.top-wrapper p {
-  opacity: 0.9;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.eatin {
-  background-color: #31bfd1 ;
-  margin-right: 10px;
-}
-
-.takeout {
-  background-color: #f2b87b;
-}
-
 .btn {
   padding: 8px 24px;
   color: white;
@@ -79,15 +34,15 @@ li {
   border-radius: 4px;
   text-align: center;
 }
-
 .btn:hover {
   opacity: 1;
 }
-
 .fa {
   margin-right: 5px;
 }
-
+/*
+  Head
+          */
 header {
   height: 65px;
   width: 100%;
@@ -96,21 +51,17 @@ header {
   top: 0;
   z-index: 10;
 }
-
 .logo {
   width: 124px;
   height: 65px;
 }
-
 .header-left {
   float: left;
 }
-
 .header-right {
   float: right;
   margin-right: -25px;
 }
-
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
@@ -119,78 +70,102 @@ header {
   float: left;
   transition: all 0.5s;
 }
-
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-
 .menu-icon {
-  display:none;
-  color: white;
-  float: right;
-  font-size: 35px;
-  padding: 25px 0;
+  display: none;
 }
-
+/*
+    Top
+          */
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("../public/IMG_0011.JPG");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-wrapper h1 {
+  text-shadow:1px 0 5px black;
+  color: white;
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+.top-wrapper p {
+  opacity: 0.9;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.eatin {
+  background-color: #31bfd1 ;
+  margin-right: 10px;
+}
+.takeout {
+  background-color: #f2b87b;
+}
+/*
+    Body
+          */
 .recommend-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
+  display:inline-block;
 }
-
 .heading h2 {
   padding-top: 5%;
   font-weight: normal;
 }
-
 .flex-list {
   display: flex;
 }
-
 .flex-list li {
   flex: auto;
 }
-
 .recommend {
   backbround-color: #d2d2d2;
   padding: 5px;
 }
-
 .recommend-icon {
   position: relative;
 }
-
 .recommend img {
   width: 250px;
   height: 250px;
   border-radius: 7px;
   object-fit: contain;
 }
-
 .recommend-icon p {
   position: absolute;
   bottom: 3%;
   width: 100%;
   color: white;
 }
-
 .text-contents {
   width: 80%;
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 2px;
   font-size: 13px;
   color: #b3aeb5;
 }
-
+/*
+   Message
+          */
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-top: 100px;
   padding-bottom: 80px;
   text-align: center;
 }
-
 .message {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -201,18 +176,20 @@ header {
   height: 250px;
   border-radius: 300px;
 }
-
+/*
+    Foot
+          */
 footer img {
   width: 125px;
 }
-
 footer p {
   color: #b3aeb5;
   font-size: 12px;
 }
-
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
-
+/*
+  Sub option
+          */

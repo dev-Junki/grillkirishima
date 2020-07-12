@@ -22,7 +22,6 @@
     width: 50%;
     height: 100%;
   }
-  
 }
 
 /* モバイル向けレイアウト */
@@ -36,6 +35,10 @@
   }
   .menu-icon {
     display: block;
+    color: white;
+    float: right;
+    font-size: 35px;
+    padding: 25px 0;
   }
   .top-wrapper {
     text-align: left;
