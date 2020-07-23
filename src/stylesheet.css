@@ -167,7 +167,7 @@ header {
   text-align: center;
 }
 .message {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 5px;
   color: #5f5d60;
 }
@@ -175,6 +175,13 @@ header {
   width: 250px;
   height: 250px;
   border-radius: 300px;
+}
+.message-wrapper .text-contents {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eee;
+}
+ul.flex-list li + li {
+  border-left: 1px solid #eee;
 }
 /*
     Foot
